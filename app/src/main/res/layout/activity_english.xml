@@ -33,7 +33,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/English_Ambition" />
 
                 </RelativeLayout>
 
@@ -47,7 +47,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/English_Authority" />
 
                 </RelativeLayout>
 
@@ -61,7 +61,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/English_Anger" />
 
                 </RelativeLayout>
 
@@ -75,7 +75,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/English_Ablution" />
 
                 </RelativeLayout>
 
@@ -89,7 +89,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/English_Merit" />
 
                 </RelativeLayout>
 
@@ -103,7 +103,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/English_Marriage" />
 
                 </RelativeLayout>
 
@@ -117,7 +117,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/English_Martyrdom" />
 
                 </RelativeLayout>
             </LinearLayout>

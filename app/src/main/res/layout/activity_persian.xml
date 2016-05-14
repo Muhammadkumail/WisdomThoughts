@@ -33,7 +33,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Persian_RaftarBaMardom" />
 
                 </RelativeLayout>
 
@@ -47,7 +47,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Persian_BakhodaBudan" />
 
                 </RelativeLayout>
 
@@ -61,7 +61,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Persian_KheirDoJahan" />
 
                 </RelativeLayout>
 
@@ -75,7 +75,8 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:textSize="18sp"
+                        android:text="@string/Persian_RastGuei" />
 
                 </RelativeLayout>
 
@@ -89,7 +90,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Persian_SabrWaBordBari" />
 
                 </RelativeLayout>
 
@@ -103,7 +104,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Persian_AdalatWaZolm" />
 
                 </RelativeLayout>
 
@@ -117,7 +118,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Persian_MominWAMonafiq" />
 
                 </RelativeLayout>
             </LinearLayout>

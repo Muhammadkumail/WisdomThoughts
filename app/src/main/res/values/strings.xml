@@ -1,9 +1,31 @@
 <resources>
     <string name="app_name">Wisdom Thoughts</string>
+
+     <!--Home Page String -->
     <string name="persian_language">فارسی</string>
     <string name="urdu_language">اردو</string>
     <string name="arabic_language">العربی</string>
     <string name="english_language">English</string>
     <string name="ActionBarText">WISDOM THOUGHTS</string>
     <string name="HomeSalawatText">اللھم صل علیٰ محمد وعلیٰ آل محمد</string>
+
+    <!--Persion Categories -->
+
+    <string name="Persian_RaftarBaMardom">برخورد با مردم</string>
+    <string name="Persian_BakhodaBudan">با خدا بودن</string>
+    <string name="Persian_KheirDoJahan"> خیر دو جهان</string>
+    <string name="Persian_RastGuei">راستگويى و دروغگويى </string>
+    <string name="Persian_SabrWaBordBari">بردباری و خشم</string>
+    <string name="Persian_AdalatWaZolm">عدالت و ظلم</string>
+    <string name="Persian_MominWAMonafiq">مؤمن و منافق</string>
+
+    <!--English Categories -->
+    <string name="English_Ambition">Ambition</string>
+    <string name="English_Authority">Authority</string>
+    <string name="English_Ablution">Ablution</string>
+    <string name="English_Anger">Anger</string>
+    <string name="English_Merit">Merit</string>
+    <string name="English_Marriage">Marriage</string>
+    <string name="English_Martyrdom">Martyrdom</string>
+
 </resources>
