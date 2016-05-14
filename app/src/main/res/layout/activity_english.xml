@@ -14,38 +14,26 @@
     </RelativeLayout>
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        style="@style/CategoryScrollAndLinearLayoutMainStyle"
+        android:layout_gravity="center">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
+            style="@style/CategoryScrollAndLinearLayoutMainStyle"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="?android:actionBarSize">
+            <LinearLayout style="@style/CategoryLinearLayoutStyle">
 
                 <RelativeLayout
                     style="@style/HomeButtonsRelaytiveLayout"
                     android:layout_gravity="center">
 
                     <ImageView
-                        style="@style/HomeImageViewStyle"
-                        android:onClick="onClickEnglish"
-                        android:src="@drawable/ic_category_button" />
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:text="@string/english_language"
-                        android:textColor="@color/colorDrakGray"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/urdu_language" />
 
                 </RelativeLayout>
 
@@ -54,107 +42,82 @@
                     android:layout_gravity="center">
 
                     <ImageView
-                        style="@style/HomeImageViewStyle"
-                        android:onClick="onClickEnglish"
-                        android:src="@drawable/ic_category_button" />
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:text="@string/english_language"
-                        android:textColor="@color/colorDrakGray"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/urdu_language" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     style="@style/HomeButtonsRelaytiveLayout"
                     android:layout_gravity="center">
 
                     <ImageView
-                        style="@style/HomeImageViewStyle"
-                        android:onClick="onClickEnglish"
-                        android:src="@drawable/ic_category_button" />
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:text="@string/english_language"
-                        android:textColor="@color/colorDrakGray"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/urdu_language" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     style="@style/HomeButtonsRelaytiveLayout"
                     android:layout_gravity="center">
 
                     <ImageView
-                        style="@style/HomeImageViewStyle"
-                        android:onClick="onClickEnglish"
-                        android:src="@drawable/ic_category_button" />
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:text="@string/english_language"
-                        android:textColor="@color/colorDrakGray"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/urdu_language" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     style="@style/HomeButtonsRelaytiveLayout"
                     android:layout_gravity="center">
 
                     <ImageView
-                        style="@style/HomeImageViewStyle"
-                        android:onClick="onClickEnglish"
-                        android:src="@drawable/ic_category_button" />
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:text="@string/english_language"
-                        android:textColor="@color/colorDrakGray"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/urdu_language" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     style="@style/HomeButtonsRelaytiveLayout"
                     android:layout_gravity="center">
 
                     <ImageView
-                        style="@style/HomeImageViewStyle"
-                        android:onClick="onClickEnglish"
-                        android:src="@drawable/ic_category_button" />
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:text="@string/english_language"
-                        android:textColor="@color/colorDrakGray"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/urdu_language" />
 
                 </RelativeLayout>
+
                 <RelativeLayout
                     style="@style/HomeButtonsRelaytiveLayout"
                     android:layout_gravity="center">
 
                     <ImageView
-                        style="@style/HomeImageViewStyle"
-                        android:onClick="onClickEnglish"
-                        android:src="@drawable/ic_category_button" />
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:text="@string/english_language"
-                        android:textColor="@color/colorDrakGray"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/urdu_language" />
 
                 </RelativeLayout>
             </LinearLayout>
