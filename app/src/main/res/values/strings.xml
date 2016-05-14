@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Wisdom Thoughts</string>
+    <string name="persian_language">فارسی</string>
+    <string name="urdu_language">اردو</string>
+    <string name="arabic_language">العربی</string>
+    <string name="english_language">English</string>
 </resources>
