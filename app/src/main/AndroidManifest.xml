@@ -8,13 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity" android:screenOrientation="portrait">
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".EnglishActivity" />
+        <activity android:name=".UrduActivity" />
+        <activity android:name=".PersianActivity" />
+        <activity android:name=".ArabiActivity"></activity>
     </application>
 
 </manifest>

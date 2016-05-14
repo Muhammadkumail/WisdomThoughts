@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/HomeActionBarRelaytiveLayout">
+
+        <TextView
+            android:id="@+id/home_actionBar_textView"
+            style="@style/HomeActionBarTextView" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="?android:actionBarSize">
+
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/HomeImageViewStyle"
+                        android:onClick="onClickEnglish"
+                        android:src="@drawable/ic_category_button" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/persian_language"
+                        android:textColor="@color/colorDrakGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/HomeImageViewStyle"
+                        android:onClick="onClickEnglish"
+                        android:src="@drawable/ic_category_button" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/persian_language"
+                        android:textColor="@color/colorDrakGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/HomeImageViewStyle"
+                        android:onClick="onClickEnglish"
+                        android:src="@drawable/ic_category_button" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/persian_language"
+                        android:textColor="@color/colorDrakGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/HomeImageViewStyle"
+                        android:onClick="onClickEnglish"
+                        android:src="@drawable/ic_category_button" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/persian_language"
+                        android:textColor="@color/colorDrakGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/HomeImageViewStyle"
+                        android:onClick="onClickEnglish"
+                        android:src="@drawable/ic_category_button" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/persian_language"
+                        android:textColor="@color/colorDrakGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/HomeImageViewStyle"
+                        android:onClick="onClickEnglish"
+                        android:src="@drawable/ic_category_button" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/persian_language"
+                        android:textColor="@color/colorDrakGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/HomeImageViewStyle"
+                        android:onClick="onClickEnglish"
+                        android:src="@drawable/ic_category_button" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/persian_language"
+                        android:textColor="@color/colorDrakGray"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
