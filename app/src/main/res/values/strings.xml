@@ -4,4 +4,6 @@
     <string name="urdu_language">اردو</string>
     <string name="arabic_language">العربی</string>
     <string name="english_language">English</string>
+    <string name="ActionBarText">WISDOM THOUGHTS</string>
+    <string name="HomeSalawatText">اللھم صل علیٰ محمد وعلیٰ آل محمد</string>
 </resources>
