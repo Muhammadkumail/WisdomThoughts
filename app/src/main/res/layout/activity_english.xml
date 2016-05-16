@@ -120,6 +120,188 @@
                         android:text="@string/English_Martyrdom" />
 
                 </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/English_Martyrdom" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Backbiting" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Blessing" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Neighbour" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Regret" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Rights" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Clothing" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Charity" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Heart" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Comfort" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Hope" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Hell" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Cleanliness" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Egnlish_Hereafter" />
+
+                </RelativeLayout>
             </LinearLayout>
 
 

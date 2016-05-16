@@ -33,7 +33,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Arabic_Yateem" />
 
                 </RelativeLayout>
 
@@ -47,7 +47,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Arabic_Yaqeen" />
 
                 </RelativeLayout>
 
@@ -61,7 +61,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Arabic_Yaas" />
 
                 </RelativeLayout>
 
@@ -75,7 +75,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Arabic_Reshweh" />
 
                 </RelativeLayout>
 
@@ -89,7 +89,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Arabic_Rahbani" />
 
                 </RelativeLayout>
 
@@ -103,7 +103,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Arabic_Riazah" />
 
                 </RelativeLayout>
 
@@ -117,7 +117,176 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Arabic_Siasat" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Istema" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_tasweef" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Tamalloq" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Moat" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Makr" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Mezah" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Maraz" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Naom" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Nas" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Nefaq" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Sadaqah" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Kebr" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Arabic_Insaf" />
 
                 </RelativeLayout>
             </LinearLayout>

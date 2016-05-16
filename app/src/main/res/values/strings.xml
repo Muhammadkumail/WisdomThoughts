@@ -18,6 +18,19 @@
     <string name="Persian_SabrWaBordBari">بردباری و خشم</string>
     <string name="Persian_AdalatWaZolm">عدالت و ظلم</string>
     <string name="Persian_MominWAMonafiq">مؤمن و منافق</string>
+    <string name="Persian_Sadaghe">صدقه</string>
+    <string name="Persian_Himaqat">حماقت</string>
+    <string name="Persian_Atr">عطر</string>
+    <string name="Persian_BehatreenMardom"> بهترین و بدترین مردم </string>
+    <string name="Persian_AkhlaghPassndide">اخلاق پسنديده </string>
+    <string name="Persian_Khanewadeh"> الگوی خانواده</string>
+    <string name="Persian_DidObazdid">ديد و بازديد</string>
+    <string name="Persian_Adab"> آدابِ ادب</string>
+    <string name="Persian_Behdasht">بـهداشـت </string>
+    <string name="Persian_IslaheJame">اصلاح جامعه</string>
+    <string name="Persian_jawan">جوان</string>
+    <string name="Persian_AqloAaqel">عقل و عاقل</string>
+    <string name="Persian_DahanWaKhushbu"> دهانى خوشبو</string>
 
     <!--English Categories -->
     <string name="English_Ambition">Ambition</string>
@@ -27,5 +40,41 @@
     <string name="English_Merit">Merit</string>
     <string name="English_Marriage">Marriage</string>
     <string name="English_Martyrdom">Martyrdom</string>
+    <string name="Egnlish_Backbiting">Backbiting</string>
+    <string name="Egnlish_Blessing">Blessing </string>
+    <string name="Egnlish_Neighbour">Neighbour</string>
+    <string name="Egnlish_Regret">Regret</string>
+    <string name="Egnlish_Rights">Rights</string>
+    <string name="Egnlish_Clothing">Clothing</string>
+    <string name="Egnlish_Charity">Charity</string>
+    <string name="Egnlish_Heart">Heart</string>
+    <string name="Egnlish_Comfort">Comfort</string>
+    <string name="Egnlish_Hope">Hope</string>
+    <string name="Egnlish_Hell">Hell</string>
+    <string name="Egnlish_Cleanliness">Cleanliness</string>
+    <string name="Egnlish_Hereafter">Hereafter</string>
+
+    <!--Arabic Categories -->
+    <string name="Arabic_Yateem">الیتیم</string>
+    <string name="Arabic_Yaqeen">الیقین</string>
+    <string name="Arabic_Yaas">الیأس</string>
+    <string name="Arabic_Reshweh">الرّشوة </string>
+    <string name="Arabic_Rahbani">الرّهبانیّة</string>
+    <string name="Arabic_Riazah">الرّیاضة</string>
+    <string name="Arabic_Siasat">السیاسة</string>
+    <string name="Arabic_Istema">الاستماع </string>
+    <string name="Arabic_tasweef">التسویف</string>
+    <string name="Arabic_Tamalloq">التَّمَلُّق‏ </string>
+    <string name="Arabic_Moat">الموت‏</string>
+    <string name="Arabic_Makr">المَكر</string>
+    <string name="Arabic_Mezah">المِزاح‏ </string>
+    <string name="Arabic_Maraz">المرض</string>
+    <string name="Arabic_Naom">النوم</string>
+    <string name="Arabic_Nas">الناس</string>
+    <string name="Arabic_Nefaq">النفاق</string>
+    <string name="Arabic_Insaf">الإنصاف</string>
+    <string name="Arabic_Kebr">الكِبر</string>
+    <string name="Arabic_Sadaqah">الصّدقة</string>
+
 
 </resources>

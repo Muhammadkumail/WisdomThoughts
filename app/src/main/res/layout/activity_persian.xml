@@ -121,6 +121,175 @@
                         android:text="@string/Persian_MominWAMonafiq" />
 
                 </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_Sadaghe" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_Himaqat" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_Atr" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_BehatreenMardom" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_AkhlaghPassndide" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_Khanewadeh" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_DidObazdid" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_Adab" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_Behdasht" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_IslaheJame" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_jawan" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_AqloAaqel" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Persian_DahanWaKhushbu" />
+
+                </RelativeLayout>
             </LinearLayout>
 
 
