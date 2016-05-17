@@ -48,7 +48,7 @@
                     <TextView
                         style="@style/CategoryTextViewStyle"
                         android:text="@string/Urdu_HaramKamTarkKarna"
-                        android:textSize="16sp"/>
+                        android:textSize="17sp"/>
 
                 </RelativeLayout>
 
