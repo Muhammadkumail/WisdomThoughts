@@ -33,7 +33,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Urdu_HaqqoNas" />
 
                 </RelativeLayout>
 
@@ -47,7 +47,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Urdu_HaramKamTarkKarna" />
 
                 </RelativeLayout>
 
@@ -61,7 +61,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Urdu_Roza" />
 
                 </RelativeLayout>
 
@@ -75,7 +75,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Urdu_Ibadat" />
 
                 </RelativeLayout>
 
@@ -89,7 +89,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Urdu_Tarbiayt" />
 
                 </RelativeLayout>
 
@@ -103,7 +103,7 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Urdu_Toba" />
 
                 </RelativeLayout>
 
@@ -117,7 +117,33 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:text="@string/urdu_language" />
+                        android:text="@string/Urdu_ZabankiHifazat" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Urdu_MotOrAkherat" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    style="@style/HomeButtonsRelaytiveLayout"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        style="@style/CategoryImageViewStyle"
+                        android:onClick="onClickEnglish" />
+
+                    <TextView
+                        style="@style/CategoryTextViewStyle"
+                        android:text="@string/Urdu_SilaheRehem" />
 
                 </RelativeLayout>
             </LinearLayout>

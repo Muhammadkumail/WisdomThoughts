@@ -41,7 +41,7 @@
     <string name="English_Marriage">Marriage</string>
     <string name="English_Martyrdom">Martyrdom</string>
     <string name="Egnlish_Backbiting">Backbiting</string>
-    <string name="Egnlish_Blessing">Blessing </string>
+    <string name="Egnlish_Blessing">Blessing</string>
     <string name="Egnlish_Neighbour">Neighbour</string>
     <string name="Egnlish_Regret">Regret</string>
     <string name="Egnlish_Rights">Rights</string>
@@ -75,6 +75,18 @@
     <string name="Arabic_Insaf">الإنصاف</string>
     <string name="Arabic_Kebr">الكِبر</string>
     <string name="Arabic_Sadaqah">الصّدقة</string>
+
+    <!--urdo categories-->
+    <string name="Urdu_HaqqoNas">حق الناس</string>
+    <string name="Urdu_HaramKamTarkKarna"> حرام کام ترک کرنے کی اہمیت</string>
+    <string name="Urdu_Roza">روزہ</string>
+    <string name="Urdu_Ibadat">خدا کی عبادت</string>
+    <string name="Urdu_Tarbiayt">تعلیم و تربیت</string>
+    <string name="Urdu_Toba">توبه</string>
+    <string name="Urdu_ZabankiHifazat">زبان کی حفاظت</string>
+    <string name="Urdu_SilaheRehem">صله رحم</string>
+    <string name="Urdu_MotOrAkherat">موت اور آخرت</string>
+
 
 
 </resources>
