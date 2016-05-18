@@ -14,34 +14,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/row_imamName_textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="5dp"
-                android:gravity="center"
-                android:text="Imam ka name"
-                android:textSize="18sp"
-                android:textColor="@color/colorWhite" />
+                style="@style/RowImamNameTextViewStyle"
+                android:text="Imam ka name" />
 
             <TextView
                 android:id="@+id/row_hadith_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="10dp"
-                android:ellipsize="end"
-                android:gravity="center"
-                android:singleLine="true"
-                android:text="آيا به شما بگويم كه مكارم اخلاق چيست؟ گذشت كردن از مردم، كمك مالى به برادر (دينى) خود و بسيار به ياد خدا بودن"
-                android:textColor="@color/colorWhite"
-                android:textSize="22sp"
-                android:textStyle="bold" />
+                style="@style/RowHadithTextViewStyle"
+                android:text="آيا به شما بگويم كه مكارم اخلاق چيست؟ گذشت كردن از مردم، كمك مالى به برادر (دينى) خود و بسيار به ياد خدا بودن" />
         </LinearLayout>
 
         <RelativeLayout
@@ -50,24 +33,12 @@
             android:layout_gravity="right"
             android:layout_weight="1">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="28dp"
-                android:src="@drawable/ic_like" />
+            <ImageView style="@style/RowLikesImageViewStyle" />
 
             <TextView
                 android:id="@+id/row_like_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_marginTop="85dp"
-                android:text="likes"
-                android:textColor="@color/colorWhite"
-                android:textSize="10sp"
-                android:textStyle="bold" />
+                style="@style/RowLikesTextViewStyle"
+                android:text="likes" />
         </RelativeLayout>
     </LinearLayout>
 

@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-            <!--Home Page Stylss-->
+    <!--Home Page Stylss-->
     <style name="HomeActionBarRelaytiveLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -57,7 +57,7 @@
     </style>
 
 
-     <!--Category page Styles-->
+    <!--Category page Styles-->
     <style name="CategoryScrollAndLinearLayoutMainStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -71,6 +71,7 @@
         <item name="android:layout_marginBottom">?android:actionBarSize</item>
         <item name="android:orientation">vertical</item>
     </style>
+
     <style name="CategoryImageViewStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -80,6 +81,7 @@
         <item name="android:src">@drawable/ic_category_button</item>
 
     </style>
+
     <style name="CategoryTextViewStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -88,9 +90,68 @@
         <item name="android:textStyle">bold</item>
         <item name="android:clickable">true</item>
         <item name="android:textColor">@color/colorDarkGray</item>
-
-
     </style>
 
+    <!--Row Styles-->
+    <style name="RowHadithTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="RowImamNameTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RowLikesTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">85dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="RowLikesImageViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">28dp</item>
+      <item name="android:src">@drawable/ic_like</item>
+    </style>
+
+
+    <!--Detail Styles-->
+    <style name="DetailCategoryNameTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="DetailListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">?android:actionBarSize</item>
+
+    </style>
 
 </resources>
