@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomeActivity"
+            android:name=".WisdomThoughts.HomeActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,11 +17,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EnglishActivity" />
-        <activity android:name=".UrduActivity" />
-        <activity android:name=".PersianActivity" />
-        <activity android:name=".ArabiActivity"></activity>
+        <activity android:name=".WisdomThoughts.EnglishActivity" />
+        <activity android:name=".WisdomThoughts.UrduActivity" />
+        <activity android:name=".WisdomThoughts.PersianActivity" />
+        <activity android:name=".WisdomThoughts.ArabiActivity" />
         <activity android:name=".PersianHadiths.BarKhordBaMardomActivity" />
+        <activity android:name=".PersianHadiths.BaKhodaBudanActivity" />
+        <activity android:name=".EnglishHadiths.AmbitionActivity" />
+        <activity
+            android:name=".WisdomThoughts.ShowHadithActivity"
+            android:label="@string/title_activity_show_hadith"></activity>
     </application>
 
 </manifest>

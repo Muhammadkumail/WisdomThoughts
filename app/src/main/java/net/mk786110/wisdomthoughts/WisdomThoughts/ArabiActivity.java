@@ -1,7 +1,9 @@
-package net.mk786110.wisdomthoughts;
+package net.mk786110.wisdomthoughts.WisdomThoughts;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import net.mk786110.wisdomthoughts.R;
 
 public class ArabiActivity extends AppCompatActivity {
 

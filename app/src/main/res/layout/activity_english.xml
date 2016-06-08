@@ -29,10 +29,11 @@
 
                     <ImageView
                         style="@style/CategoryImageViewStyle"
-                        android:onClick="onClickEnglish" />
+                        android:onClick="onClickAmbition" />
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
+                        android:onClick="onClickAmbition"
                         android:text="@string/English_Ambition" />
 
                 </RelativeLayout>

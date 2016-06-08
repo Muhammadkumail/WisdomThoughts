@@ -86,6 +86,10 @@
     <string name="Urdu_ZabankiHifazat">زبان کی حفاظت</string>
     <string name="Urdu_SilaheRehem">صله رحم</string>
     <string name="Urdu_MotOrAkherat">موت اور آخرت</string>
+    <string name="title_activity_show_hadith">ShowHadithActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 
 

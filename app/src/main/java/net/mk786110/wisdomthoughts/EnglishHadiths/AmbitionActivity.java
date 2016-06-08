@@ -1,4 +1,4 @@
-package net.mk786110.wisdomthoughts.PersianHadiths;
+package net.mk786110.wisdomthoughts.EnglishHadiths;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,19 +9,19 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import net.mk786110.wisdomthoughts.Adaptor.PersainAdaptor;
-import net.mk786110.wisdomthoughts.Datasource.PersianBaKhodaBudanDatasource;
+import net.mk786110.wisdomthoughts.Adaptor.EnglishAdaptor;
+import net.mk786110.wisdomthoughts.Datasource.EnglishAmbitionDatasource;
 import net.mk786110.wisdomthoughts.Model.Hadith;
 import net.mk786110.wisdomthoughts.R;
 import net.mk786110.wisdomthoughts.WisdomThoughts.ShowHadithActivity;
 
 import java.util.ArrayList;
 
-public class BarKhordBaMardomActivity extends AppCompatActivity {
+public class AmbitionActivity extends AppCompatActivity {
 
     ListView mHadithLIstView;
-    PersianBaKhodaBudanDatasource mPersianBaKhodaBudanDatasource;
-    PersainAdaptor mpersainAdaptor;
+    EnglishAmbitionDatasource mEnglishAmbitionDatasource;
+    EnglishAdaptor mEnglishAdaptor;
     ArrayList<Hadith> mHadithArrayList;
     Context context;
 
@@ -34,13 +34,13 @@ public class BarKhordBaMardomActivity extends AppCompatActivity {
 
         mHadithLIstView = (ListView) findViewById(R.id.detail_hadith_listView);
 
-        mPersianBaKhodaBudanDatasource = new PersianBaKhodaBudanDatasource();
+        mEnglishAmbitionDatasource = new EnglishAmbitionDatasource();
 
-        mHadithArrayList = mPersianBaKhodaBudanDatasource.getHadithArrayList();
+        mHadithArrayList = mEnglishAmbitionDatasource.getHadithArrayList();
 
-        mpersainAdaptor = new PersainAdaptor(context, R.layout.activity_row, mHadithArrayList);
+        mEnglishAdaptor = new EnglishAdaptor(context, R.layout.activity_row, mHadithArrayList);
 
-        mHadithLIstView.setAdapter(mpersainAdaptor);
+        mHadithLIstView.setAdapter(mEnglishAdaptor);
 
         mHadithLIstView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

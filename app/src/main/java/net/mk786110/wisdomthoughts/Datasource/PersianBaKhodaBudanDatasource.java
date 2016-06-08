@@ -7,7 +7,7 @@ import java.util.ArrayList;
 /**
  * Created by developer on 6/8/16.
  */
-public class PersianDatasource {
+public class PersianBaKhodaBudanDatasource {
 
     ArrayList<Hadith> hadithArrayList = new ArrayList<>();
 

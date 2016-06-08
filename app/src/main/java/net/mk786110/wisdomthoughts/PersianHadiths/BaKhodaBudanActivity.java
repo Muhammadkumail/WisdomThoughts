@@ -10,17 +10,17 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import net.mk786110.wisdomthoughts.Adaptor.PersainAdaptor;
-import net.mk786110.wisdomthoughts.Datasource.PersianBaKhodaBudanDatasource;
+import net.mk786110.wisdomthoughts.Datasource.PersianBarkhordBaMardomDatasource;
 import net.mk786110.wisdomthoughts.Model.Hadith;
 import net.mk786110.wisdomthoughts.R;
 import net.mk786110.wisdomthoughts.WisdomThoughts.ShowHadithActivity;
 
 import java.util.ArrayList;
 
-public class BarKhordBaMardomActivity extends AppCompatActivity {
+public class BaKhodaBudanActivity extends AppCompatActivity {
 
     ListView mHadithLIstView;
-    PersianBaKhodaBudanDatasource mPersianBaKhodaBudanDatasource;
+    PersianBarkhordBaMardomDatasource mPersianBarkhordBaMardomDatasource;
     PersainAdaptor mpersainAdaptor;
     ArrayList<Hadith> mHadithArrayList;
     Context context;
@@ -34,13 +34,14 @@ public class BarKhordBaMardomActivity extends AppCompatActivity {
 
         mHadithLIstView = (ListView) findViewById(R.id.detail_hadith_listView);
 
-        mPersianBaKhodaBudanDatasource = new PersianBaKhodaBudanDatasource();
+        mPersianBarkhordBaMardomDatasource = new PersianBarkhordBaMardomDatasource();
 
-        mHadithArrayList = mPersianBaKhodaBudanDatasource.getHadithArrayList();
+        mHadithArrayList = mPersianBarkhordBaMardomDatasource.getHadithArrayList();
 
         mpersainAdaptor = new PersainAdaptor(context, R.layout.activity_row, mHadithArrayList);
 
         mHadithLIstView.setAdapter(mpersainAdaptor);
+
 
         mHadithLIstView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

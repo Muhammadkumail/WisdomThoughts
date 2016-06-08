@@ -44,10 +44,11 @@
 
                     <ImageView
                         style="@style/CategoryImageViewStyle"
-                        android:onClick="onClickEnglish" />
+                        android:onClick="onClickBaKhodaBudan" />
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
+                        android:onClick="onClickBaKhodaBudan"
                         android:text="@string/Persian_BakhodaBudan" />
 
                 </RelativeLayout>
