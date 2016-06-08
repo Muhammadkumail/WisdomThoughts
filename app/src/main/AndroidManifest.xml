@@ -21,6 +21,7 @@
         <activity android:name=".UrduActivity" />
         <activity android:name=".PersianActivity" />
         <activity android:name=".ArabiActivity"></activity>
+        <activity android:name=".PersianHadiths.BarKhordBaMardomActivity" />
     </application>
 
 </manifest>

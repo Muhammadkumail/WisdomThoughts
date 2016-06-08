@@ -29,10 +29,11 @@
 
                     <ImageView
                         style="@style/CategoryImageViewStyle"
-                        android:onClick="onClickEnglish" />
+                        android:onClick="onClickBarKhordBaMardom" />
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
+                        android:onClick="onClickBarKhordBaMardom"
                         android:text="@string/Persian_RaftarBaMardom" />
 
                 </RelativeLayout>
@@ -75,8 +76,8 @@
 
                     <TextView
                         style="@style/CategoryTextViewStyle"
-                        android:textSize="18sp"
-                        android:text="@string/Persian_RastGuei" />
+                        android:text="@string/Persian_RastGuei"
+                        android:textSize="18sp" />
 
                 </RelativeLayout>
 
