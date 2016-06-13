@@ -2,28 +2,73 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_show_hadith"
     android:orientation="vertical"
+    android:weightSum="3">
 
-    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/show_hadith_masoom_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="test1"
+            android:textColor="#000"
+            android:textSize="30dp" />
 
 
-    <TextView
-        android:id="@+id/show_hadith_masoom_name"
+        <TextView
+            android:id="@+id/show_hadith_hadith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="test1"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/show_hadith_hadith_refremce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="test1"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="test1" />
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="onClickLike"
+            android:src="@drawable/ic_red_like" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="onClickShare"
+            android:src="@drawable/ic_share" />
 
 
-    <TextView
-        android:id="@+id/show_hadith_hadith"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="test1" />
-
-
-    <TextView
-        android:id="@+id/show_hadith_hadith_refremce"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="test1" />
+    </LinearLayout>
 </LinearLayout>

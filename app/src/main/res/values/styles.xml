@@ -114,7 +114,7 @@
         <item name="android:layout_marginRight">5dp</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorDarklightGreen</item>
         <item name="android:gravity">center</item>
     </style>
 
@@ -145,7 +145,7 @@
         <item name="android:gravity">center</item>
         <item name="android:textSize">30sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorBlack</item>
     </style>
     <style name="DetailListView">
         <item name="android:layout_width">match_parent</item>

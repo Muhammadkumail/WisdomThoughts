@@ -35,7 +35,6 @@ public class PersainAdaptor extends ArrayAdapter<Hadith> {
         TextView mMasoomName = (TextView) rowView.findViewById(R.id.row_imamName_textView);
         TextView mLIkes = (TextView) rowView.findViewById(R.id.row_like_textView);
 
-
         mhadith.setText(hadith.getHadith());
         mMasoomName.setText(hadith.getImam_name());
         mLIkes.setText(hadith.getLikes());
